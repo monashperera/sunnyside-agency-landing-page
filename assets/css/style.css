@@ -264,8 +264,6 @@ p, h1, h2, h3, h4, h5, h6 {
     text-align: center;
     letter-spacing: 0.8rem;
     text-transform: uppercase;
-    -webkit-animation: fade-in 0.5s ease-in;
-    animation: fade-in 0.5s ease-in;
 }
 
 .hero__arrow-icon {
