@@ -62,6 +62,7 @@ body {
 
 main {
     padding: 0;
+    background-color: var(--ne-header-bg-color);
 }
 
 img, picture, video, canvas, svg {
@@ -247,8 +248,8 @@ p, h1, h2, h3, h4, h5, h6 {
     background-position: bottom center;
     -webkit-user-select: none;
     user-select: none;
-    -webkit-animation: background-image fade-in 0.5s ease-in;
-    animation: background-image fade-in 0.5s ease-in;
+    -webkit-animation: fade-in 0.5s ease-in;
+    animation: fade-in 0.5s ease-in;
 }
 
 
@@ -298,6 +299,7 @@ p, h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--white);
 }
 
 .brand__heading,
