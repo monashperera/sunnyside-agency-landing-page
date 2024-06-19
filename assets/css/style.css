@@ -119,6 +119,7 @@ p, h1, h2, h3, h4, h5, h6 {
     font-variation-settings: var(--font-soft);
     text-decoration: none;
     text-transform: uppercase;
+    z-index: 2;
 }
 
 .link__learn-more::after {
@@ -131,7 +132,7 @@ p, h1, h2, h3, h4, h5, h6 {
     height: 10px;
     border-radius: var(--radius-10);
     opacity: 0.3;
-    z-index: -1;
+    z-index: 1;
     -webkit-transition: opacity .4s;
     transition: opacity .4s;
 }
