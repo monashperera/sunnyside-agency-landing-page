@@ -247,6 +247,8 @@ p, h1, h2, h3, h4, h5, h6 {
     background-position: bottom center;
     -webkit-user-select: none;
     user-select: none;
+    -webkit-animation: background-image fade-in 0.5s ease-in;
+    animation: background-image fade-in 0.5s ease-in;
 }
 
 
