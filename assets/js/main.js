@@ -1,3 +1,18 @@
+window.addEventListener("load", () => {
+    try {
+        let loader = document.getElementById('loaderContainer');
+        let showElem = document.querySelectorAll('header, main, footer');
+
+        loader.classList.add('d-none');
+        for(let x = 0; x < showElem.length; x++) {
+            showElem[x].classList.remove('d-none');
+        }
+    } catch (error) {
+        console.log(error);
+    }
+});
+
+
 window.onscroll = function () { headerScroll() };
 
 let btnMenu = document.getElementById('btnMenu');

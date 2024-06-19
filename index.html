@@ -18,7 +18,24 @@
   <link rel="stylesheet" href="assets/css/style.min.css">
 </head>
 <body>
-  <header class="header">
+  <!-- Start: Loader -->
+  <div class="loader__control-container" id="loaderContainer">
+    <div class="loader-container">
+        <div class="loader-container-spins mb-2">
+            <span class="spin-loader"></span>
+            <span class="spin-loader-2"></span>
+        </div>
+        <span class="loading-text">
+            Loading&nbsp;
+            <span class="loader-dot">.</span>
+            <span class="loader-dot">.</span>
+            <span class="loader-dot">.</span>
+            <span class="loader-dot">.</span>
+        </span>
+    </div>
+  </div>
+  <!-- End: Loader -->
+  <header class="d-none header">
     <div class="container-fluid">
       <div class="row m-0">
         <div class="logo__img-container col-6 p-2">
@@ -52,7 +69,7 @@
       </div>
     </div>
   </header>
-  <main>
+  <main class="d-none">
     <!-- Start:Hero-->
     <section>
         <div class="hero__section">
@@ -239,8 +256,7 @@
     </section>
 
   </main>
-
-  <footer>
+  <footer class="d-none">
     <div class="container-fluid">
       <div class="col-12 p-0">
         <div class="footer__img-container col-12 p-2">
