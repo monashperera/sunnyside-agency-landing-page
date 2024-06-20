@@ -501,7 +501,9 @@ p, h1, h2, h3, h4, h5, h6 {
     color: var(--ne-vd-grayish-blue);
     font-family: var(--font-barlow);
     font-weight: var(--fw-semi-bold);
+    font-size: 1.0625rem;
     text-align: center;
+
 }
 
 .card__client-info span {
