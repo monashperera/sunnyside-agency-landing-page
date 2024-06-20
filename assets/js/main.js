@@ -1,4 +1,5 @@
-window.addEventListener("load", () => {
+let bodyElem = document.querySelector('body');
+bodyElem.addEventListener("load", () => {
     try {
         let loader = document.getElementById('loaderContainer');
         let showElem = document.querySelectorAll('header, main, footer');
