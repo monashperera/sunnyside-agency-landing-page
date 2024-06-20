@@ -3,7 +3,7 @@
     src: url('../fonts/Fraunces-VariableFont.woff2') format('woff2-variations');
     font-weight: 100 900;
     font-style: normal;
-    /* font-display: swap; */
+    font-display: swap;
 }
 
 @font-face {
@@ -194,8 +194,8 @@ p, h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-fraunces);
     font-weight: var(--fw-bold);
     font-variation-settings: var(--font-soft);
-    -webkit-transition: .4s;
-            transition: .4s;
+    -webkit-transition: .4s color;
+            transition: .4s color;
 
 }
 
@@ -253,8 +253,8 @@ p, h1, h2, h3, h4, h5, h6 {
     position: fixed;
     background-color: var(--ne-header-bg-color);
     z-index: 100;
-    -webkit-transition: padding .4s linear;
-            transition: padding .4s linear;
+    -webkit-transition: .4s padding linear;
+            transition: .4s padding linear;
 
 }
 
@@ -322,8 +322,8 @@ p, h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     -webkit-user-select: none;
     user-select: none;
-    -webkit-transition: .4s;
-    transition: .4s;
+    -webkit-transition: 400ms color, 400ms background-color;
+    transition: 400ms color, 400ms background-color;
 }
 
 .btn__contact:hover {
@@ -344,8 +344,8 @@ p, h1, h2, h3, h4, h5, h6 {
     background-position: bottom center;
     -webkit-user-select: none;
     user-select: none;
-    -webkit-animation: fade-in 0.5s ease-in;
-    animation: fade-in 0.5s ease-in;
+    -webkit-animation: fade-in 500ms ease-in;
+    animation: fade-in 500ms ease-in;
 }
 
 
