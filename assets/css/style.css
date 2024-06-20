@@ -3,7 +3,7 @@
     src: url('../fonts/Fraunces-VariableFont.woff2') format('woff2-variations');
     font-weight: 100 900;
     font-style: normal;
-    font-display: swap;
+    /* font-display: swap; */
 }
 
 @font-face {
@@ -344,8 +344,8 @@ p, h1, h2, h3, h4, h5, h6 {
     background-position: bottom center;
     -webkit-user-select: none;
     user-select: none;
-    -webkit-animation: fade-in 500ms ease-in;
-    animation: fade-in 500ms ease-in;
+    /* -webkit-animation: fade-in 500ms ease-in;
+    animation: fade-in 500ms ease-in; */
 }
 
 
