@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Fraunces';
+    src: url('../fonts/Fraunces-VariableFont.woff2') format('woff2-variations');
+    font-weight: 100 900;
+    font-style: normal;
+    /* font-display: swap; */
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    /* font-display: swap; */
+}
