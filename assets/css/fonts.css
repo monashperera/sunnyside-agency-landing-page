@@ -13,3 +13,139 @@
     font-style: normal;
     /* font-display: swap; */
 }
+
+:root {
+
+    --font-fraunces: 'Fraunces', serif;
+    --font-barlow: 'Barlow', sans-serif;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+    --fw-black: 900;
+    --radius-10: 10px;
+    --font-soft: "SOFT"80;
+}
+
+html {
+    font-size: 18px;
+}
+
+.loading-text {
+    font-family: var(--font-barlow);
+    font-weight: var(--fw-semi-bold);
+    font-size: 1.2rem;
+}
+
+.attribution {
+    font-size: 0.875rem;
+    font-family: var(--font-barlow);
+    font-weight: var(--fw-semi-bold);
+    text-align: center;
+}
+
+.attribution a {
+    font-family: var(--font-fraunces);
+    font-weight: var(--fw-bold);
+    font-variation-settings: var(--font-soft);
+
+}
+
+.link__learn-more {
+    --font-soft: "SOFT"50;
+    font-family: var(--font-fraunces);
+    font-weight: var(--fw-black);
+    font-variation-settings: var(--font-soft);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    font-family: var(--font-barlow);
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.btn__contact {
+    font-family: var(--font-fraunces);
+    font-weight: var(--fw-bold);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.hero__heading {
+    font-family: var(--font-fraunces);
+    font-weight: var(--fw-black);
+    font-variation-settings: var(--font-soft);
+    font-size: 4.5rem;
+    text-align: center;
+    letter-spacing: 0.8rem;
+    text-transform: uppercase;
+}
+
+.brand__heading,
+.audience__heading {
+    font-family: var(--font-fraunces);
+    font-size: 2.5rem;
+    font-weight: var(--fw-black);
+    font-variation-settings: var(--font-soft);
+}
+
+.brand__info,
+.audience__info {
+    font-family: var(--font-barlow);
+    font-weight: var(--fw-semi-bold);
+}
+
+.services__heading {
+    font-family: var(--font-fraunces);
+    font-weight: var(--fw-black);
+    font-variation-settings: var(--font-soft);
+    text-transform: capitalize;
+}
+
+.services__info {
+    font-family: var(--font-barlow);
+    font-weight: var(--fw-semi-bold);
+}
+
+.client__container-header span {
+    font-family: var(--font-fraunces);
+    font-size: 1.5rem;
+    font-weight: var(--fw-black);
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card__client-message {
+    font-family: var(--font-barlow);
+    font-weight: var(--fw-semi-bold);
+    font-size: 1.0625rem;
+    text-align: center;
+
+}
+
+.card__client-info span:first-child {
+    font-family: var(--font-fraunces);
+    font-size: 1.2rem;
+    font-weight: var(--fw-black);
+}
+
+.card__client-info span:last-child {
+    font-family: var(--font-barlow);
+    font-weight: var(--fw-semi-bold);
+}
+
+.nav__footer .nav__footer-link {
+    font-family: var(--font-barlow);
+    font-size: 1.25rem;
+    font-weight: var(--fw-semi-bold);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 991px) {
+    .nav__link {
+        font-family: var(--font-barlow);
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+}

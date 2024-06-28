@@ -16,14 +16,6 @@
     --ne-grayish-blue: hsl(210, 4%, 67%);
     --white: hsl(0, 0%, 100%);
     --ne-header-bg-color: hsl(200, 99%, 62%);
-
-    --font-fraunces: 'Fraunces', serif;
-    --font-barlow: 'Barlow', sans-serif;
-    --fw-semi-bold: 600;
-    --fw-bold: 700;
-    --fw-black: 900;
-    --radius-10: 10px;
-    --font-soft: "SOFT"80;
 }
 
 *, *::before, *::after {
@@ -42,7 +34,6 @@ html, body {
 
 body {
     line-height: 1.5;
-    font-size: 1.125rem;
 }
 
 main {
@@ -123,9 +114,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .loading-text {
     color: var(--pr-dark-blue-photography);
-    font-family: var(--font-barlow);
-    font-weight: var(--fw-semi-bold);
-    font-size: 1.2rem;
 }
 
 @keyframes spinner {
@@ -166,19 +154,12 @@ p, h1, h2, h3, h4, h5, h6 {
 .attribution {
     padding: 0.5rem;
     color: var(--pr-dark-cyan-footer);
-    font-size: 0.875rem;
-    font-family: var(--font-barlow);
-    font-weight: var(--fw-semi-bold);
-    text-align: center;
     -webkit-animation: fade-in 1.5s ease-in;
     animation: fade-in 1.5s ease-in;
 }
 
 .attribution a {
     color: var(--pr-dark-cyan-footer);
-    font-family: var(--font-fraunces);
-    font-weight: var(--fw-bold);
-    font-variation-settings: var(--font-soft);
     -webkit-transition: .4s color;
             transition: .4s color;
 
@@ -192,13 +173,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .link__learn-more {
     position: relative;
-    --font-soft: "SOFT"50;
     color: var(--ne-vd-desaturated-blue);
-    font-family: var(--font-fraunces);
-    font-weight: var(--fw-black);
-    font-variation-settings: var(--font-soft);
-    text-decoration: none;
-    text-transform: uppercase;
     z-index: 2;
 }
 
@@ -283,9 +258,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .nav__link {
     color: var(--white);
-    font-family: var(--font-barlow);
-    font-size: 1.25rem;
-    text-decoration: none;
 }
 
 .nav__link:hover {
@@ -301,10 +273,6 @@ p, h1, h2, h3, h4, h5, h6 {
     border-radius: 30px;
     background-color: var(--white);
     color: var(--ne-vd-desaturated-blue);
-    font-family: var(--font-fraunces);
-    font-weight: var(--fw-bold);
-    text-transform: uppercase;
-    text-decoration: none;
     -webkit-user-select: none;
     user-select: none;
     -webkit-transition: 400ms color, 400ms background-color;
@@ -338,13 +306,6 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-top: 22vh;
     margin-bottom: 4.5rem;
     color: var(--white);
-    font-family: var(--font-fraunces);
-    font-weight: var(--fw-black);
-    font-variation-settings: var(--font-soft);
-    font-size: 4.5rem;
-    text-align: center;
-    letter-spacing: 0.8rem;
-    text-transform: uppercase;
 }
 
 .hero__arrow-icon {
@@ -385,18 +346,12 @@ p, h1, h2, h3, h4, h5, h6 {
 .audience__heading {
     margin-bottom: 2rem;
     color: var(--ne-vd-desaturated-blue);
-    font-family: var(--font-fraunces);
-    font-size: 2.5rem;
-    font-weight: var(--fw-black);
-    font-variation-settings: var(--font-soft);
 }
 
 .brand__info,
 .audience__info {
     margin-bottom: 2rem;
     color: var(--ne-d-grayish-blue);
-    font-family: var(--font-barlow);
-    font-weight: var(--fw-semi-bold);
 }
 
 .brand__img-container {
@@ -434,15 +389,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .services__heading {
     margin-bottom: 1rem;
-    font-family: var(--font-fraunces);
-    font-weight: var(--fw-black);
-    font-variation-settings: var(--font-soft);
-    text-transform: capitalize;
-}
-
-.services__info {
-    font-family: var(--font-barlow);
-    font-weight: var(--fw-semi-bold);
 }
 
 .client__container {
@@ -459,12 +405,6 @@ p, h1, h2, h3, h4, h5, h6 {
     display: block;
     padding-bottom: 3.5rem;
     color: var(--ne-grayish-blue);
-    font-family: var(--font-fraunces);
-    font-size: 1.5rem;
-    font-weight: var(--fw-black);
-    letter-spacing: 0.5rem;
-    text-transform: uppercase;
-    text-align: center;
 }
 
 .card__client-img {
@@ -484,11 +424,6 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: 1rem;
     padding-bottom: 3.5rem;
     color: var(--ne-vd-grayish-blue);
-    font-family: var(--font-barlow);
-    font-weight: var(--fw-semi-bold);
-    font-size: 1.0625rem;
-    text-align: center;
-
 }
 
 .card__client-info span {
@@ -497,16 +432,8 @@ p, h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.card__client-info span:first-child {
-    font-family: var(--font-fraunces);
-    font-size: 1.2rem;
-    font-weight: var(--fw-black);
-}
-
 .card__client-info span:last-child {
     color: var(--ne-grayish-blue);
-    font-family: var(--font-barlow);
-    font-weight: var(--fw-semi-bold);
 }
 
 
@@ -571,10 +498,6 @@ footer .container-fluid {
 
 .nav__footer .nav__footer-link {
     color: var(--pr-dark-cyan-footer);
-    font-family: var(--font-barlow);
-    font-size: 1.25rem;
-    font-weight: var(--fw-semi-bold);
-    text-decoration: none;
     -webkit-transition: .4s;
             transition: .4s;
 }
@@ -678,9 +601,6 @@ footer .container-fluid {
     
     .nav__link {
         color: var(--ne-d-grayish-blue);
-        font-family: var(--font-barlow);
-        font-size: 1.25rem;
-        text-decoration: none;
     }
     
     .nav__link:hover,
