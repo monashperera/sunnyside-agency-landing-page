@@ -304,8 +304,6 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-top: 22vh;
     margin-bottom: 4.5rem;
     color: var(--white);
-    -webkit-animation: fade-in 1500ms ease;
-    animation: fade-in 1500ms ease;
 }
 
 .hero__arrow-icon {
