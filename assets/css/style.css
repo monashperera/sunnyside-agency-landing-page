@@ -297,8 +297,6 @@ p, h1, h2, h3, h4, h5, h6 {
     background-position: bottom center;
     -webkit-user-select: none;
     user-select: none;
-    /* -webkit-animation: fade-in 500ms ease-in;
-    animation: fade-in 500ms ease-in; */
 }
 
 
@@ -306,6 +304,8 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-top: 22vh;
     margin-bottom: 4.5rem;
     color: var(--white);
+    -webkit-animation: fade-in 800ms ease;
+    animation: fade-in 800ms ease;
 }
 
 .hero__arrow-icon {
