@@ -647,7 +647,7 @@ footer .container-fluid {
     }
 
     .hero__section {
-        background-image: url('../images/mobile/image-header.avif');
+        background-image: url('../images/mobile/image-header.avif'), url('../images/mobile/image-header.webp');
     }
 
     .hero__heading {
